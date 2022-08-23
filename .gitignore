@@ -1,0 +1,47 @@
+# This is a template .gitignore file for Ahern Companies WordPress projects.
+#
+# Fact: you don't want WordPress core files, or your server-specific
+# configuration files etc., in your project's repository. You just don't.
+#
+
+# Node Modules
+node_modules/
+
+# Ignore Packaged Files
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.zip
+*.tar
+
+# Mac Folder Structure
+.DS_Store
+
+# Other Ignore Files
+_notes/*
+_notes
+_json
+wp-admin/error_log
+BingSiteAuth.xml
+wp-config.php
+*wp-config.php
+wp-config-sample.php
+error_log
+.ftpconfig
+debug.log
+uploads
+cache
+readme.html
+.idea/*
+v/*
+/logs
+/etc
+/ssl
+/tmp
+/temp
+/access-logs
+/www
+/public_ftp
+/mail
